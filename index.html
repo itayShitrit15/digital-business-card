@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="נועם לוי — מפתח Front-End וסטודנט למדעי המחשב. כישורים, פרויקטים ויצירת קשר.">
+  <title>נועם לוי | מפתח Front-End</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Native checkbox remains keyboard-accessible; CSS changes the sibling page theme. -->
+  <input class="theme-input" type="checkbox" id="dark-mode" aria-label="מצב כהה">
+  <div class="page">
+    <a class="skip-link" href="#main">דילוג לתוכן</a>
+    <header class="site-header container">
+      <a class="brand" href="#home" aria-label="נועם לוי — ראש העמוד">נל<span>נועם לוי</span></a>
+      <nav aria-label="ניווט ראשי"><a href="#about">אודות</a><a href="#skills">כישורים</a><a href="#projects">פרויקטים</a></nav>
+      <label class="theme-toggle" for="dark-mode"><span class="toggle-track" aria-hidden="true"></span><span class="light-label">מצב כהה</span><span class="dark-label">מצב בהיר</span></label>
+    </header>
+    <main id="main" class="container">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">קוד מדויק. חוויה פשוטה.</p>
+          <h1 id="hero-title">נעים להכיר,<br>אני <span>נועם לוי.</span></h1>
+          <p class="role">מפתח <bdi>Front-End</bdi> וסטודנט למדעי המחשב</p>
+          <p class="intro">הופך רעיונות לממשקים ברורים, נגישים ונעימים לשימוש. אוהב את המפגש שבין חשיבה לוגית לעיצוב עם תשומת לב לפרטים.</p>
+          <div class="actions"><a class="button primary" href="mailto:noam.levi@example.com">בואו נדבר <span aria-hidden="true">↖</span></a><a class="button secondary" href="#projects">לפרויקטים שלי</a></div>
+        </div>
+        <figure class="portrait"><img src="assets/images/profile.png" width="1024" height="1024" alt="תמונת פרופיל של נועם לוי, דמות בדויה"><figcaption><span>NOAM LEVI</span><span>Front-End Developer</span></figcaption></figure>
+      </section>
+      <section class="about section" id="about" aria-labelledby="about-title"><div><p class="eyebrow">01 / קצת עליי</p><h2 id="about-title">סקרנות שמובילה<br>לעשייה.</h2></div><div><p>אני סטודנט למדעי המחשב עם עניין בפיתוח ממשקים ובנגישות ברשת. במסגרת הלימודים והעבודה העצמאית שלי בניתי אתרי תוכן, עמודי נחיתה ותיק עבודות רספונסיבי.</p><p>אני נהנה לפרק בעיות מורכבות לצעדים קטנים, לכתוב קוד קריא וללמוד דרך בנייה. בפרויקטים שלי אני מקפיד על מבנה סמנטי, היררכיה חזותית ותצוגה שעובדת בכל גודל מסך.</p></div></section>
+      <section class="section" id="skills" aria-labelledby="skills-title"><p class="eyebrow">02 / ארגז הכלים</p><div class="section-heading"><h2 id="skills-title">הכישורים שלי <span lang="en">Skills</span></h2><p>בסיס חזק, למידה מתמדת.</p></div><ul class="skills"><li><span class="skill-number">01</span><h3>HTML סמנטי</h3><p>מבנה ברור, טפסים וקישורים נגישים.</p></li><li><span class="skill-number">02</span><h3>CSS ורספונסיביות</h3><p>Grid, Flexbox והתאמה למסכים שונים.</p></li><li><span class="skill-number">03</span><h3>Git ו־GitHub</h3><p>ניהול גרסאות ותיעוד תהליך העבודה.</p></li><li><span class="skill-number">04</span><h3>חשיבה עיצובית</h3><p>טיפוגרפיה, צבע וחוויית משתמש.</p></li></ul></section>
+      <section class="section" id="projects" aria-labelledby="projects-title"><p class="eyebrow">03 / עבודות נבחרות</p><div class="section-heading"><h2 id="projects-title">מרעיון למסך <span lang="en">Projects</span></h2><p>שלושה פרויקטים, אותה תשומת לב.</p></div><div class="projects"><article class="project"><div class="project-top"><span>01</span><span>אתר תדמית</span></div><h3>Studio North</h3><p>אתר לסטודיו לאדריכלות, עם היררכיית תוכן ברורה והתאמה מלאה למובייל.</p><ul class="tags" aria-label="טכנולוגיות"><li>HTML</li><li>CSS Grid</li></ul><details><summary>על תהליך העבודה</summary><p>ארגנתי את השירותים והעבודות במבנה סמנטי. הגריד משתנה מעמודות במסך רחב לעמודה אחת בטלפון, עם מרווחים וטקסט קריא.</p></details></article><article class="project"><div class="project-top"><span>02</span><span>אתר תוכן</span></div><h3>Read &amp; Grow</h3><p>מגזין קריאה דיגיטלי שמתמקד בטיפוגרפיה נוחה ובניווט פשוט בין נושאים.</p><ul class="tags" aria-label="טכנולוגיות"><li>HTML</li><li>Flexbox</li></ul><details><summary>על תהליך העבודה</summary><p>יצרתי כרטיסי מאמרים עם כותרות מדורגות ומצבי מיקוד לקישורים. הגבלתי את רוחב שורות הטקסט כדי לשמור על קריאה נוחה.</p></details></article><article class="project"><div class="project-top"><span>03</span><span>מיתוג אישי</span></div><h3>הכרטיס הדיגיטלי שלי</h3><p>האתר שבו אתם נמצאים: היכרות קצרה, עבודות ודרכי קשר במקום אחד.</p><ul class="tags" aria-label="טכנולוגיות"><li>HTML</li><li>CSS</li></ul><details><summary>על תהליך העבודה</summary><p>החלפת ערכת הצבעים מבוססת על תיבת סימון ובורר CSS מסוג checked. אין באתר JavaScript, והנכסים נשמרים מקומית.</p></details></article></div></section>
+      <section class="contact section" id="contact" aria-labelledby="contact-title"><div><p class="eyebrow">04 / נשארים בקשר</p><h2 id="contact-title">יש רעיון מעניין?<br>אשמח לשמוע.</h2></div><address><a href="mailto:noam.levi@example.com"><span>אימייל</span><bdi>noam.levi@example.com</bdi></a><a href="tel:+12025550147"><span>טלפון</span><bdi>+1 (202) 555-0147</bdi></a><a href="https://github.com/noam-levi-demo" target="_blank" rel="noopener noreferrer"><span>GitHub</span><span>לפרופיל לדוגמה ↗</span></a><a href="https://www.linkedin.com/in/noam-levi-demo/" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span><span>לפרופיל לדוגמה ↗</span></a></address></section>
+    </main>
+    <footer class="container"><p>© 2026 נועם לוי · נבנה עם מחשבה ותשומת לב.</p><p>אתר לימודי · הפרטים, הפרופילים והפרויקטים להמחשה.</p><a href="#home">בחזרה למעלה ↑</a></footer>
+  </div>
+</body>
+</html>
